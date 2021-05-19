@@ -1,0 +1,359 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0
+}
+
+.outer{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	background: #4E2FEB
+}
+.bar{
+	width: 100%;
+	height: 30px;
+	background: #000000;
+}
+.bar p{
+	color: aliceblue;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 30px
+}
+.bara {
+	width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+}
+.main{
+	width: auto;
+	height: 100%;
+	background: #E4E4E4;
+}
+.box{
+	width: 300px;
+	height: 50px;
+	float:left;
+	margin-left: 40px;
+	font-size: 40px;
+}
+.box2 {
+	width: 400px;
+	height: 50px;
+	float: left;
+	
+}
+.menu
+	{
+		display: flex;
+		justify-content: center
+	}
+	li{
+	font-size: 20px;
+	width: 180px;
+	height: 60px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.hinhanh {
+
+	height: 1120px;
+	background-image: url("thư mục không có tiêu đề/force-majeure-00tlC0Clfrs-unsplash.jpg");
+}
+.thoitrang{
+	margin-top: -20px
+}
+.chuhinh{
+	widows: 1000px;
+	height: 960px;
+	background: #C3797A;
+	margin-top: -1000px
+}
+.h1{
+	font-size: 50px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+	margin-top: 30px;
+	margin-left: 700px
+}
+.minibox{
+	width: 100px;
+	height: 100px;
+	background: black;
+	float: right;
+}
+.boxnews{
+	width: 100%;
+	height: 70px;
+}
+.trongboxnews{
+	width: 300px;
+	height: 50px;
+	float:left;
+	margin-left: 40px;
+	font-size: 30px;
+	line-height: 120px
+}
+.bigbox{
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+}
+.box3{
+	width:  25.5%;
+	height: 475px;
+	background-color: white;
+	float: left;
+}
+.box4{
+	width:  25.5%;
+	height: 450px;
+	background-color: white;
+	float: left;
+}
+.box5{
+	width: 23.7%;
+	height: 400px;
+	background-color:white;
+	float: left;
+}
+.box6{
+	width:  24.5%;
+	height: 475px;
+	background-color: white;
+	float: left;
+}
+.hinh1{
+	position: relative;
+	top: 9px;
+	left: 13px;
+}
+.hinh2{
+	position: relative;
+	top: 9px;
+	left: 9px;
+	float: left;
+}
+.hinh3{
+	position: relative;
+	top: 9px;
+	left: 6px;
+}
+.hinh4{
+	position: relative;
+	top: 9px;
+	left: 6px;
+}
+.text1{
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+}
+.text1 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 28px;
+	color: grey;
+	line-height: 50px;
+	position: relative;
+	top: 20px
+}
+.text1 p{
+	font-family: Exo 2;
+	font-size: 17px;
+	color: aliceblue;
+	text-align: left
+}
+.mua{
+	width: 150px;
+	height: 50px;
+	background: black;
+	margin-left: 120px;
+	text-align: center;
+	position: relative;
+	top: 40px
+}
+.mua p{
+	color: white;
+	line-height: 50px;
+}
+.text2{
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	line-height: 90px;
+	font-size: 28px;
+	color: grey;
+}
+.mua2 {
+	width: 150px;
+	height: 50px;
+	background: black;
+	margin-left: 120px;
+	text-align: center;
+	position: relative;
+}
+.mua2 p{
+	color: white;
+	line-height: 50px;
+	margin: 0 auto;
+}
+.text3 {
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	line-height: 90px;
+	font-size: 28px;
+	color: grey;
+}
+.mua3 {
+	width: 150px;
+	height: 50px;
+	background: black;
+	margin-left: 120px;
+	text-align: center;
+	position: relative;
+}
+.mua3 p{
+	color: white;
+	line-height: 50px;
+	margin: 0 auto;
+}
+.text4 {
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	line-height: 90px;
+	font-size: 28px;
+	color: grey;
+}
+.mua4 {
+	width: 150px;
+	height: 50px;
+	background: black;
+	margin-left: 120px;
+	text-align: center;
+	position: relative;
+}
+.mua4 p{
+	color: white;
+	line-height: 50px;
+	margin: 0 auto;
+}
+.freeship{
+	width: 350px;
+	height: 40px;
+	background: #E4E4E4;
+	float: left;
+	margin-left: 300px
+}
+.freeship p{
+	text-align: center;
+	line-height: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+.return{
+	width: 350px;
+	height: 40px;
+	background: #E4E4E4;
+	float: left;
+	margin-left: 50px
+}
+.return p{
+	text-align: center;
+	line-height: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+.secure{
+	width: 350px;
+	height: 40px;
+	background: #E4E4E4;
+	float: left;
+	margin-left: 50px;
+}
+.secure p{
+	text-align: center;
+	line-height: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+	
+}
+.hop{
+	width: 100%;
+	height: 400px;
+	background: #FFFFFF;
+	float: left;
+	margin-top: 100px;
+}
+.hopchu {
+	width: 100%;
+	height: 100px;
+	background: white;
+	margin : 0 auto;
+	margin-top: 10px;
+}
+.text10 {
+	color: black;
+	font-size: 30px;
+	margin: 0 auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+	line-height: 200px
+	
+}
+.text12{
+	color: black;
+	font-size: 20px;
+	margin: 0 auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	line-height: 0px;
+}	
+.footer{
+	width: 100%;
+	background: black;
+}
+.footertext{
+	font-size: 30px;
+	color: white;
+	margin-left: 100px;
+	line-height: 150px
+}
+.footeremail{
+	font-size: 30px;
+	color: white;
+	margin-left: 100px
+}
+.footernumber{
+	font-size: 30px;
+	color:white;
+	margin-left: 100px;
+	line-height: 150px
+}
+.footeraboutus{
+	font-size:30px;
+	color:white;
+	float: right;
+	margin-top: -281px;
+	margin-right: 300px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.footeraboutus1{
+	font-size:20px;	
+	color:white;
+	float: right;
+	margin-top: -230px;
+	margin-right: 100px
+}
+img{
+	width: 100%;
+}
